@@ -1,6 +1,6 @@
 package demo.springboot.web;
 
-import demo.springboot.domain.Book;
+import demo.springboot.entity.Book;
 import demo.springboot.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

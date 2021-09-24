@@ -1,5 +1,6 @@
 package demo.springboot.domain;
 
+import demo.springboot.entity.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

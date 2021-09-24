@@ -1,7 +1,8 @@
 package demo.springboot.service.impl;
 
-import demo.springboot.domain.Book;
+
 import demo.springboot.domain.BookRepository;
+import demo.springboot.entity.Book;
 import demo.springboot.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
