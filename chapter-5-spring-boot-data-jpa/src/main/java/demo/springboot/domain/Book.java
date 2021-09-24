@@ -1,8 +1,11 @@
 package demo.springboot.domain;
 
+
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 
 /**
@@ -11,6 +14,7 @@ import java.io.Serializable;
  * Created by bysocket on 30/09/2017.
  */
 @Entity
+@Table(name = "book" )
 public class Book implements Serializable {
 
     /**
